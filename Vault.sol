@@ -16,3 +16,9 @@ contract Vault {
     }
   }
 }
+
+/*
+It is possible to access even private functions:
+await web3.eth.getStorageAt(contract.address, 1) ~ Here 0-> locked and 1-> password
+
+*/
